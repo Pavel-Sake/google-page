@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel="stylesheet">
+  <title>Google page</title>
+</head>
+<body>
+<div class="main-page" id="main-page">
+
+  <div class="main-page__dark-background" id="main-page__dark-background"></div>
+
+  <div class="main-page__content">
+
+    <header class="header wrapper">
+      <div class="header__content">
+        <div class="header__menu">
+          <ul class="header__menu-part">
+            <li class="header__item header__item--mobile header__button-menu" id="button-menu">
+              <a class="header__link" href="#">
+                <svg style="fill:#757575;width:24px;height:24px" viewBox="0 0 24 24">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                </svg>
+              </a>
+            </li>
+            <li class="header__item header__item--mobile header__item--all">
+              <a class="header__link header__link--all" href="#">Все</a>
+            </li>
+            <li class="header__item header__item--mobile-hidden">
+              <a class="header__link header__link--effect"
+                 href="https://mail.google.com/mail/u/0/?tab=wm#inbox">Почта</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link header__link--effect"
+                 href="https://www.google.by/imghp?hl=ru&tab=wi&ogbl">Картинки</a>
+            </li>
+          </ul>
+          <ul class="header__menu-part">
+            <li class="header__item">
+              <a class="header__link header__link-applications" id="applications" href="#">
+                <svg class="header__icon header__icon--size" version="1.1" id="Capa_1"
+                     xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="408px" height="408px" viewBox="0 0 408 408" style="enable-background:new 0 0 408 408;"
+                     xml:space="preserve" fill="grey">
+
+<g>
+	<g id="apps">
+
+		<path d="M0,102h102V0H0V102z M153,408h102V306H153V408z M0,408h102V306H0V408z M0,255h102V153H0V255z M153,255h102V153H153V255z
+			 M306,0v102h102V0H306z M153,102h102V0H153V102z M306,255h102V153H306V255z M306,408h102V306H306V408z"/>
+	</g>
+</g>
+
+</svg>
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link header__link-enter"
+                 href="https://accounts.google.com/signin/v2/identifier?hl=ru&passive=true&continue=https%3A%2F%2Fwww.google.by%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Войти</a>
+            </li>
+          </ul>
+        </div>
+        <div class="applications-page" id="applications-page">
+          <div class="applications-page__block">
+            <div class="applications-page__item">
+              <a
+                class="applications-page__link"
+                href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=app&pli=1"
+              >
+                <img class="applications-page__img" src="assets/applicationsIcons/account.svg" alt="link Account">
+                <span class="applications-page__title">Account</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://www.google.by/webhp?tab=rw">
+                <img class="applications-page__img" src="assets/applicationsIcons/searching.svg" alt="link search">
+                <span class="applications-page__title">Search</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://www.google.by/maps?hl=ru&tab=wl">
+                <img class="applications-page__img" src="assets/applicationsIcons/map.svg" alt="link map">
+                <span class="applications-page__title">Map</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://www.youtube.com/?gl=BY&tab=w1">
+                <img class="applications-page__img" src="assets/applicationsIcons/youtube.svg" alt="link YouTube">
+                <span class="applications-page__title">YouTube</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://play.google.com/store?hl=ru&tab=w8">
+                <img class="applications-page__img" src="assets/applicationsIcons/google-play.svg" alt="link play">
+                <span class="applications-page__title">Play</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://mail.google.com/mail/u/0/?tab=wm">
+                <img class="applications-page__img" src="assets/applicationsIcons/email.svg" alt="link email">
+                <span class="applications-page__title">Email</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://meet.google.com/?hs=197&pli=1&authuser=0">
+                <img class="applications-page__img" src="assets/applicationsIcons/meet.svg" alt="meet">
+                <span class="applications-page__title">Meet</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://contacts.google.com/?hl=ru&tab=wC">
+                <img class="applications-page__img" src="assets/applicationsIcons/google-contacts.svg" alt="link contacts">
+                <span class="applications-page__title">Contacts</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://drive.google.com/drive/my-drive">
+                <img class="applications-page__img" src="assets/applicationsIcons/drive.svg" alt="link drive">
+                <span class="applications-page__title">Drive</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://calendar.google.com/calendar/r?tab=wc&pli=1">
+                <img class="applications-page__img" src="assets/applicationsIcons/google-calendar.svg" alt="link calendar">
+                <span class="applications-page__title">Calendar</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://translate.google.by/?hl=ru&tab=wT">
+                <img class="applications-page__img" src="assets/applicationsIcons/translate.svg" alt="link translate">
+                <span class="applications-page__title">Переводчик</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://photos.google.com/?tab=rq&pageId=none">
+                <img class="applications-page__img" src="assets/applicationsIcons/photo.svg" alt="link photo">
+                <span class="applications-page__title">Фото</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://duo.google.com/?usp=duo_ald">
+                <img class="applications-page__img" src="assets/applicationsIcons/google-duo.svg" alt="link duo">
+                <span class="applications-page__title">Duo</span>
+              </a>
+            </div>
+          </div>
+          <hr>
+          <div class="applications-page__block">
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://docs.google.com/document/u/0/">
+                <img class="applications-page__img" src="assets/applicationsIcons/google-docs.svg" alt="link documents">
+                <span class="applications-page__title">Документы</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://docs.google.com/presentation/u/0/">
+                <img class="applications-page__img" src="assets/applicationsIcons/google-sheets.svg" alt="link table">
+                <span class="applications-page__title">Таблицы</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://docs.google.com/presentation/u/0/">
+                <img class="applications-page__img" src="assets/applicationsIcons/slides.svg" alt="link Presentations">
+                <span class="applications-page__title">Презентации</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://www.blogger.com/about/?r=1-null_user">
+                <img class="applications-page__img" src="assets/applicationsIcons/blogger.svg" alt="link blogger">
+                <span class="applications-page__title">Blogger</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://hangouts.google.com/">
+                <img class="applications-page__img" src="assets/applicationsIcons/google-hangouts.svg" alt="link hangouts">
+                <span class="applications-page__title">Hangouts</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://keep.google.com/u/0/">
+                <img class="applications-page__img" src="assets/applicationsIcons/google-keep.svg" alt="link keep">
+                <span class="applications-page__title">Keep</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://jamboard.google.com/">
+                <img class="applications-page__img" src="assets/applicationsIcons/jamboard.svg" alt="link jamboard">
+                <span class="applications-page__title">Jamboard</span>
+              </a>
+            </div>
+            <div class="applications-page__item">
+              <a class="applications-page__link" href="https://earth.google.com/web/">
+                <img class="applications-page__img" src="assets/applicationsIcons/google-earth.svg" alt="planet">
+                <span class="applications-page__title">Планета</span>
+              </a>
+            </div>
+          </div>
+          <a class="applications-page__link-more-app" href="https://about.google/intl/en/products/?tab=rh">
+            Другие приложения и продукты от гугл
+          </a>
+        </div>
+        <div class="header__title">
+          <img class="header__logo" src="assets/img/google_logo.png" alt="logo">
+        </div>
+      </div>
+    </header>
+
+    <main class="main wrapper">
+      <div class="block-search">
+        <label class="block-search__label block-search__label-desc" for="search">
+          <img class="block-search__label-img" src="assets/icon/search.svg" alt="icon search">
+        </label>
+        <input class="block-search__search" type="text" id="search">
+        <button class="block-search__button block-search__button-title block-search__button-title--keyboard"
+                type="button">
+          <img class="block-search__img" src="assets/icon/keyboard.svg" alt="button keyboard">
+        </button>
+        <button class="block-search__button block-search__button-title block-search__button-title--micro" type="button">
+          <img class="block-search__img block-search__img--micro" src="assets/icon/mikrophone.png" alt="button microphone">
+        </button>
+        <label class="block-search__label block-search__label-mobile" for="search">
+          <img class="block-search__label-img" src="assets/icon/search-white.svg" alt="icon search">
+        </label>
+      </div>
+      <div class="block-buttons">
+        <button class="block-buttons__button" type="button">Поиск в Google</button>
+        <button class="block-buttons__button" type="button">Мне повезет!</button>
+      </div>
+      <div class="block-languages">
+        <span class="block-languages__title">Сервисы Google доступны на разных:</span>
+        <a class="block-languages__link" href="#">Беларуская</a>
+      </div>
+    </main>
+    <div class="spacer"></div>
+
+    <footer class="footer ">
+      <div class="footer__row">
+        <div class="footer__country footer__content">
+          <span class="footer__country-title">Беларусь</span>
+        </div>
+      </div>
+      <div class="footer__row">
+        <div class="footer__content footer__content--position-between footer__content--position-center">
+          <div class="footer__info-links">
+            <a class="footer__info-link"
+               href="https://ads.google.com/intl/ru_by/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            >
+              Реклама
+            </a>
+            <a class="footer__info-link"
+               href="https://www.google.by/intl/ru/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none"
+            >
+              Для бизнеса
+            </a>
+            <a class="footer__info-link "
+               href="https://about.google/?utm_source=google-BY&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+            >
+              Все о Google
+            </a>
+            <a class="footer__info-link footer__info-link--hidden-mobile-650"
+               href="https://about.google/?utm_source=google-BY&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+            >
+              Как работает Google поиск
+            </a>
+          </div>
+          <div class="footer__info-links">
+            <a class="footer__info-link" href="https://policies.google.com/privacy?fg=1">Конфединциальность</a>
+            <a class="footer__info-link" href="https://policies.google.com/terms?fg=1">Условия</a>
+            <a class="footer__info-link footer__info-settings" id="footer__info-settings" href="#">Настройки</a>
+            <div class="footer__settings-menu footer__settings-menu--hidden" id="footer__settings-menu">
+              <ul class="footer__settings-items">
+                <li class="footer__settings-item">
+                  <a class="footer__settings-link" href="https://www.google.by/preferences?hl=ru-BY&fg=1"
+                  >
+                    Настройки поиска
+                  </a>
+                </li>
+                <li class="footer__settings-item">
+                  <a class="footer__settings-link" href="https://www.google.by/advanced_search?hl=ru-BY&fg=1"
+                  >
+                    Расширенный поиск
+                  </a>
+                </li>
+                <li class="footer__settings-item">
+                  <a class="footer__settings-link"
+                     href="https://www.google.by/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1"
+                  >
+                    Ваши данные в Поиске
+                  </a>
+                </li>
+                <li class="footer__settings-item">
+                  <a class="footer__settings-link" href="https://www.google.by/history/optout?hl=ru-BY&fg=1"
+                  >
+                    История
+                  </a>
+                </li>
+                <li class="footer__settings-item">
+                  <a class="footer__settings-link"
+                     href="https://support.google.com/websearch/?visit_id=637263656275427608-228966383&hl=ru-BY&rd=2#topic=3378866"
+                  >
+                    Поиск в справке
+                  </a>
+                </li>
+                <li class="footer__settings-item">
+                  <a class="footer__settings-link" href="https://www.google.by/webhp?tab=rw"
+                  >
+                    Отзыв
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+
+  <div class="side-menu side-menu--hidden" id="side-menu">
+    <div class="side-menu__title">
+      <img class="side-menu__logo" src="assets/icon-side-menu/google_img_1.png">
+    </div>
+    <ul class="side-menu__items">
+      <li class="side-menu__item">
+        <a  class="side-menu__link" href="#">
+          <img class="side-menu__icon" src="assets/icon-side-menu/home_icon.svg" alt="link home">
+          <span>Главная страница</span>
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#">
+          <img class="side-menu__icon" src="assets/icon-side-menu/search_activity_icon.svg" alt="link search">
+          <span>Действия в поиске</span>
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#">
+          <img class="side-menu__icon" src="assets/icon-side-menu/save_icon.svg" alt="link save">
+          <span>Подборки</span>
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#">
+          <img class="side-menu__icon" src="assets/icon-side-menu/manage_searches_icon.png" alt="link manage">
+          <span>Офлайн-запросы</span>
+        </a>
+      </li>
+
+    </ul>
+    <ul class="side-menu__items">
+      <li class="side-menu__item">
+        <a class="side-menu__link">
+          <img class="side-menu__icon" src="assets/icon-side-menu/settings_icon.svg" alt="link settings">
+          <span>Настройки</span>
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#">
+          <img class="side-menu__icon" src="assets/icon-side-menu/privacy_advisor_icon.svg" alt="link privacy">
+          <span>Ваши данные в Поиске</span>
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#">
+          <img class="side-menu__icon" src="assets/icon-side-menu/how_search_works_icon.svg" alt="link how search works">
+          <span>Как работает Google Поиск</span>
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#">
+          <img class="side-menu__icon" src="assets/icon-side-menu/help_icon.svg" alt="link help">
+          <span>Справка</span>
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#">
+          <img class="side-menu__icon" src="assets/icon-side-menu/feedback_icon.svg" alt="link feedback">
+          <span>Отправте отзыв</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
